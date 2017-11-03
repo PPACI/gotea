@@ -2,6 +2,7 @@
 Dead Simple CLI Tea Timer written in Go
 
 # Quick start
+Note that as gotea will display a dialog to warn you about the end of the timer, it will not work on ssh or non-desktop server. 
 
 In a terminal :
 ```bash
