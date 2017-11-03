@@ -18,14 +18,14 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/PPACI/GoTea/libs"
+	"github.com/PPACI/gotea/libs"
 )
 
 // greenCmd represents the green command
 var greenCmd = &cobra.Command{
 	Use:   "green",
 	Short: "3 minutes",
-	Long: `Start a 3 minutes timer`,
+	Long:  `Start a 3 minutes timer`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Starting a 3 minutes timer")
 		libs.StartTimer(3)

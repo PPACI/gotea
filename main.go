@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/PPACI/GoTea/cmd"
+import "github.com/PPACI/gotea/cmd"
 
 func main() {
 	cmd.Execute()

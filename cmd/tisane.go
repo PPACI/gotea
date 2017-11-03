@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/PPACI/GoTea/libs"
+	"github.com/PPACI/gotea/libs"
 )
 
 // tisaneCmd represents the tisane command
