@@ -17,8 +17,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
 	"github.com/PPACI/gotea/libs"
+	"github.com/spf13/cobra"
 )
 
 // greenCmd represents the green command

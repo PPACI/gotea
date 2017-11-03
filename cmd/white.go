@@ -17,15 +17,15 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
 	"github.com/PPACI/gotea/libs"
+	"github.com/spf13/cobra"
 )
 
 // whiteCmd represents the white command
 var whiteCmd = &cobra.Command{
 	Use:   "white",
 	Short: "2 minutes",
-	Long: `Start a 2 minutes timer`,
+	Long:  `Start a 2 minutes timer`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Starting a 2 minutes timer")
 		libs.StartTimer(2)

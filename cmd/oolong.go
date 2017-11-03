@@ -17,15 +17,15 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
 	"github.com/PPACI/gotea/libs"
+	"github.com/spf13/cobra"
 )
 
 // oolongCmd represents the oolong command
 var oolongCmd = &cobra.Command{
 	Use:   "oolong",
 	Short: "4 minutes",
-	Long: `Start a 4 minutes timer`,
+	Long:  `Start a 4 minutes timer`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Starting a 4 minutes timer")
 		libs.StartTimer(4)

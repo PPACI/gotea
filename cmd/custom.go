@@ -17,8 +17,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
 	"github.com/PPACI/gotea/libs"
+	"github.com/spf13/cobra"
 	"strconv"
 )
 
@@ -26,14 +26,18 @@ import (
 var customCmd = &cobra.Command{
 	Use:   "custom",
 	Short: "custom timer",
-	Long: `Start a custom timer`,
+	Long:  `Start a custom timer`,
 	Run: func(cmd *cobra.Command, args []string) {
-		duration, err := strconv.ParseUint(args[0],10,16)
+		duration, err := strconv.ParseUint(args[0], 10, 16)
 		if err != nil {
 			fmt.Println("Invalid timer")
 			return
 		}
-		fmt.Printf("Starting a %d minutes timer \n", duration)
+		if duration > 1 {
+			fmt.Printf("Starting a %d minutes timer \n", duration)
+		} else {
+			fmt.Printf("Starting a 1 minute timer \n")
+		}
 		libs.StartTimer(uint16(duration))
 	},
 	Args: cobra.ExactArgs(1),
