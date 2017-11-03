@@ -16,7 +16,7 @@ func StartTimer(duration uint16) {
 	for timeTracker < duration {
 		<- ticker.C
 		timeTracker ++
-		fmt.Printf("Time elapsed : %d minutes", timeTracker)
+		fmt.Printf("Time elapsed : %d minutes\n", timeTracker)
 	}
 	dialog.Message("Done !").Title("Tea Timer").Info()
 }

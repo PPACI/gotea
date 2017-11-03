@@ -34,7 +34,7 @@ var customCmd = &cobra.Command{
 			return
 		}
 		fmt.Printf("Starting a %d minutes timer \n", duration)
-		libs.StartTimer(2)
+		libs.StartTimer(uint16(duration))
 	},
 	Args: cobra.ExactArgs(1),
 }
