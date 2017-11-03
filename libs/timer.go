@@ -14,7 +14,7 @@ func StartTimer(duration uint16) {
 	ticker := time.NewTicker(1 * time.Minute)
 	var timeTracker uint16 = 0
 	for timeTracker < duration {
-		_ <- ticker.C
+		<- ticker.C
 		timeTracker ++
 		fmt.Printf("Time elapsed : %d minutes", timeTracker)
 	}
