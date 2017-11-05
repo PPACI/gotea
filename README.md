@@ -2,7 +2,6 @@
 Dead Simple CLI Tea Timer written in Go
 
 # Quick start
-Note that as gotea will display a dialog to warn you about the end of the timer, it will not work on ssh or non-desktop server. 
 
 In a terminal :
 ```bash
@@ -40,3 +39,8 @@ Flags:
 
 Use "gotea [command] --help" for more information about a command.
 ```
+
+# Warning
+* As gotea will display a dialog to warn you about the end of the timer, it will not work on ssh or non-desktop server. 
+* gotea use https://github.com/sqweek/dialog as dialog library, which use https://github.com/AllenDang/w32 on windows... Which can be picky to install due tot the fact it need gcc and complete golang build chain.
+  * gotea may use another method for windows in the future as my goal is to provide a simple to use, __and to install__ cli timer.
