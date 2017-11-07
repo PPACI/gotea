@@ -11,7 +11,7 @@ In a terminal :
 go get github.com/PPACI/gotea
 ```
 ## compiled
-Download (gotea)[https://github.com/PPACI/gotea/releases] and put the binary file on your path.
+Download [gotea](https://github.com/PPACI/gotea/releases) and put the binary file on your path.
 ## create a timer
 Just start the timer you want :
 ```bash
