@@ -1,7 +1,6 @@
 package libs
 
 import (
-	"github.com/ctcpip/notifize"
 	"github.com/go-toast/toast"
 )
 
@@ -11,5 +10,5 @@ func Done() {
 		Title: "Tea",
 		Message: "Your tea is done !",
 	}
-	_ := notification.Push()
+	notification.Push()
 }
