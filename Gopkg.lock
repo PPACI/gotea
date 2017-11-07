@@ -2,28 +2,16 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/AllenDang/w32"
+  name = "github.com/ctcpip/notifize"
   packages = ["."]
-  revision = "9a4ee0f7d224efbff75947fa7060daadccc4741c"
+  revision = "89b506bbcaf11bc5ffd34e2ec1a1274f4e31147f"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/inconshreveable/mousetrap"
   packages = ["."]
   revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
   version = "v1.0"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/mattn/go-gtk"
-  packages = ["gdk","gdkpixbuf","glib","gtk","pango"]
-  revision = "f546757330f0b7d13aabef1a8a095c727f6cb571"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/mattn/go-pointer"
-  packages = ["."]
-  revision = "6f8ea376a37a9c9ae33f1898cfc00877f79abfa1"
 
 [[projects]]
   name = "github.com/spf13/cobra"
@@ -37,15 +25,9 @@
   revision = "e57e3eeb33f795204c1ca35f56c44f83227c6e66"
   version = "v1.0.0"
 
-[[projects]]
-  branch = "master"
-  name = "github.com/sqweek/dialog"
-  packages = [".","cocoa"]
-  revision = "cf6779a24f1271b549408d65b6e30a6416cb97e4"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d59a01aebbb9bc19568bc413fa1b1596812a04d97430731da83c8f5b9cd8837f"
+  inputs-digest = "ee4755e46054334b45caba6cf6a8ca7f6d259f37cc472676048149dab76e3476"
   solver-name = "gps-cdcl"
   solver-version = 1

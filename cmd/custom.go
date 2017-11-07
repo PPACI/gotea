@@ -36,7 +36,7 @@ var customCmd = &cobra.Command{
 		if duration > 1 {
 			fmt.Printf("Starting a %d minutes timer \n", duration)
 		} else {
-			fmt.Printf("Starting a 1 minute timer \n")
+			fmt.Printf("Starting a %d minute timer \n", duration)
 		}
 		libs.StartTimer(uint16(duration))
 	},

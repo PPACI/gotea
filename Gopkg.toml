@@ -25,6 +25,7 @@
   name = "github.com/spf13/cobra"
   version = "0.0.1"
 
+
 [[constraint]]
-  branch = "master"
-  name = "github.com/sqweek/dialog"
+  name = "github.com/ctcpip/notifize"
+  version = "1.0.0"
