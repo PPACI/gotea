@@ -8,10 +8,22 @@
   version = "v1.0.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/go-toast/toast"
+  packages = ["."]
+  revision = "b700e246b8b6d3e13554091e540e1019e26389f1"
+
+[[projects]]
   name = "github.com/inconshreveable/mousetrap"
   packages = ["."]
   revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
   version = "v1.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/nu7hatch/gouuid"
+  packages = ["."]
+  revision = "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
 
 [[projects]]
   name = "github.com/spf13/cobra"
@@ -28,6 +40,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ee4755e46054334b45caba6cf6a8ca7f6d259f37cc472676048149dab76e3476"
+  inputs-digest = "0c1f3ba7edb2d80dfc7b4d07aa9baf9dcde37053cd2986bac42d134c41a57021"
   solver-name = "gps-cdcl"
   solver-version = 1
